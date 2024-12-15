@@ -40,7 +40,7 @@ The **Elastic Net** model performed the best among the various models I tried. H
 - **Precision for Class 1**: 0.83
 - **Accuracy**: 83%
 
-Although the recall for Class 1 (loan approved) was 0, the model was able to accurately predict the minority class (loan denial), which is critical for risk management in loan approval processes.
+Although the recall for Class 0 (loan denial) was 0, the model was able to accurately predict the majority class (loan approval), which is critical for risk management in loan approval processes.
 
 ## Challenges
 - **Class Imbalance**: The dataset was heavily imbalanced, with more approved loans than denied loans. Handling this imbalance was a key challenge.
